@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1EFEF; /* White background color */
+    font-family: inter;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1EFEF; /* Navbar background color */
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: background-color 0.3s ease; /* Animation on background-color change */
+}
+
+.company-name {
+    color: #191717;
+    font-family: inter;
+    font-weight: bold;
+    font-size: 24px;
+}
+.company-name:hover{
+    color: #CCC8AA;
+}
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #191717;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #CCC8AA;
+}
+.hero{
+    height: 100vh;
+    background-image: url(image/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the bottom of the container */
+    text-align: left;
+}
+.hero h1 {
+    padding-top: 200px;
+    padding-left: 50px;
+    font-family: inter;
+    font-size: x-large;
+    margin-bottom: 20px;
+    letter-spacing: 0.49px;
+}
+.hero p{
+    padding-left: 50px;
+    color: #F1EFEF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 700px;
+    letter-spacing: 0.49px;
+}
+.tips{
+    flex-shrink: 0;
+    background-color:#7D7C7C;
+    padding: 20px;
+}
+.tips p{
+    color: #F1EFEF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 250.023%;
+    letter-spacing: 0.49px;
+}
+.button-container {
+    text-align: center;
+}
+
+.button-container a {
+    display: inline-block;
+    background-color: #F1EFEF;
+    color: #191717;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.button-container a:hover{
+    color:#F1EFEF;
+    background-color: #CCC8AA;
+}
+.image-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.image-stack img {
+    width: 100%; /* Take the full width of the display */
+    max-height: 400px; /* Set the maximum height based on your preference */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+.slim-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+}
