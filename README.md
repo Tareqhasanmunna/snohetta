@@ -26,7 +26,7 @@ Snøhetta's World of Innovative Architecture and Design is a curated collection 
 
 ## Getting Started
 
-To get started with Snøhetta's World of Innovative Architecture and Design, simply visit [https://snohetta.vercel.app/#] in your web browser. Explore the various sections, browse projects, and immerse yourself in the world of architectural excellence.
+To get started with Snøhetta's World of Innovative Architecture and Design, simply visit [https://snohetta.vercel.app/] in your web browser. Explore the various sections, browse projects, and immerse yourself in the world of architectural excellence.
 
 ## Usage
 
